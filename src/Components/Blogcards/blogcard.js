@@ -1,9 +1,6 @@
 
-
-import axios from 'axios'
-import { div } from 'prelude-ls'
-import React, { useEffect , useState } from 'react'
-import './blogcard.css'
+import React from 'react'
+// import './blogcard.css'
 import Posts from './blogsnippet.json'
 
 function Blog(props) {
