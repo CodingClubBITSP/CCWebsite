@@ -10891,6 +10891,11 @@
     "slice-ansi" "^4.0.0"
     "string-width" "^4.2.0"
 
+"tailwind-scroll-behavior@^1.0.0":
+  "integrity" "sha512-0Tu+XQZUf4Cla53p3Yb1247SsoJcU4/5a5bs6SmrkXdsQn8rcuIc6gb5k2UFrIo2/nvmTjKplF4AHQcfEwCCNQ=="
+  "resolved" "https://registry.npmjs.org/tailwind-scroll-behavior/-/tailwind-scroll-behavior-1.0.0.tgz"
+  "version" "1.0.0"
+
 "tailwindcss@npm:@tailwindcss/postcss7-compat@^2.2.7":
   "integrity" "sha512-1QkWUEeLV1AoNipMCE6IlL7XYScGb+DAzaXy35ooMDvl0G8kCMHBNqGxyVAnTcK8gyJNUzkKXExkUnbjAndd/g=="
   "resolved" "https://registry.npmjs.org/@tailwindcss/postcss7-compat/-/postcss7-compat-2.2.7.tgz"
