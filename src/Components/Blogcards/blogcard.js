@@ -16,7 +16,7 @@ function Blog(props) {
                </div>
                <div className="p-10 overflow-x-hidden overflow-y-hidden ">
                  <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">{post.Date}</div>
-                 <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:text-green-900">{post.title}</a>
+                 <a href="google.com" className="block mt-1 text-lg leading-tight font-medium text-black hover:text-green-900">{post.title}</a>
                  <div className="h-3">
                    <p className="mt-2 text-gray-500">{post.body}</p>
                   </div>    
