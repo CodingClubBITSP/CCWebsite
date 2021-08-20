@@ -15,7 +15,7 @@ class Navbar extends Component {
 
   render() {
     return (
-      <div>
+      <div onClick={this.handleClick}>
         {this.state.hamOpen ? (
           <nav className={this.state.hamOpen ? "NavbarItems active" : "NavbarItems"}>
             <h1 className="navbar-logo">
