@@ -3,6 +3,7 @@ import { MenuItems } from "./MenuItems";
 import "./Navbar.css";
 import { Button } from "../Button";
 import Grid from "@material-ui/core/Grid";
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 class Navbar extends Component {
   state = { clicked: false, hamOpen: false };
   handleClick = () => {
@@ -30,9 +31,9 @@ class Navbar extends Component {
               {MenuItems.map((item, index) => {
                 return (
                   <li key={index} style={{ paddingBottom: "2rem" }}>
-                    <a className={item.cName} href={item.url}>
+                    <Link to={item.url} className={item.cName} >
                       {item.title}
-                    </a>
+                    </Link>
                   </li>
                 );
               })}
@@ -80,14 +81,14 @@ class Navbar extends Component {
               <i className="fas fa-bars"></i>
             </button>
             <svg
-              viewBox="0 0 200 180"
-              style={{ marginTop: "-38%", zIndex: "-1" }}
+              viewBox="0 0 200 90"
+              style={{ marginTop: "-38%", zIndex: "1", opacity: "1" }}
               className="shape"
             >
               <defs>
                 <linearGradient id="grad">
-                  <stop stop-color="#b82e1f" />
-                  <stop offset="100%" stop-color="black" />
+                  <stop stop-color="#04619f" />
+                  <stop offset="60%" stop-color="black" />
                 </linearGradient>
               </defs>
               <path fill="url(#grad)" d="  M 0,50 C 0,100  200,100  200,50 " />
