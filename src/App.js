@@ -13,17 +13,8 @@ function App() {
   return (
     <Router>
         <div>
-          <h1 className="text-3xl">Temporary Nav</h1>
-          <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <ul className="navbar-nav mr-auto">
-            <li><Link to={'/home'} className="nav-link"> Home </Link></li>
-            <li><Link to={'/ourteam'} className="nav-link">OurTeam</Link></li>
-            <li><Link to={'/departments'} className="nav-link">Departments</Link></li>
-            <li><Link to={'/login'} className="nav-link">Login</Link></li>
-            <li><Link to={'/blog'} className="nav-link">Blog</Link></li>
-          </ul>
-          </nav>
-          <hr />
+          <Navbar />
+          
           <Switch>
               <Route exact path='/home' component={Home} />
               <Route path='/ourteam' component={OurTeam} />
